@@ -1,7 +1,10 @@
 package com.example.conference.model;
 
+import jakarta.validation.constraints.NotEmpty;
+
 public class Registration {
 
+    @NotEmpty
     private String name;
 
     public String getName() {
