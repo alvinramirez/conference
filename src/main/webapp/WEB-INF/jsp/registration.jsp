@@ -32,6 +32,9 @@
                     <td>
                         <form:input path="name"/>
                     </td>
+                    <td>
+                        <form:errors path="name" cssClass="error" />
+                    </td>
                 </tr>
                 <tr>
                     <td colspan="2">
