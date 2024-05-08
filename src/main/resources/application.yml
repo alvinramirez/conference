@@ -3,3 +3,6 @@ spring:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
+  thymeleaf:
+    prefix: /WEB-INF/views/
+    suffix: .html
