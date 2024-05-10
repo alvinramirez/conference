@@ -13,7 +13,7 @@ public class UserController {
     public User getUser() {
         User user = new User();
         user.setId(1234);
-        user.setName("Alvin");
+        user.setName("Alvin Ramirez");
         return user;
     }
 }
